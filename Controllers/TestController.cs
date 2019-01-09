@@ -11,7 +11,7 @@ namespace CPG.Controllers
     {
         public IHttpActionResult GetTest()
         {
-            return Ok("You've recieved the test data.");
+            return Ok("Code 200: You've recieved the test data.");
         }
     }
 }

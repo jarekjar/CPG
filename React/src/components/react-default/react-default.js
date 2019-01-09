@@ -27,7 +27,9 @@ class ReactDefault extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Test  <code>React</code> App for CRL. 
+            Welcome to the Catalog Page Generator.
+            Check the status code below.
             <br/>{ this.state.test }
           </p>
           <a
