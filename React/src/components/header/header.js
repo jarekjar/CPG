@@ -11,6 +11,7 @@ import {
     DropdownToggle,
     DropdownMenu,
     DropdownItem } from 'reactstrap';
+import {Link} from 'react-router-dom';
 
 export default class Header extends Component {
 
@@ -33,12 +34,12 @@ export default class Header extends Component {
         return (
             <div>
               <Navbar color="light" light expand="md">
-                <NavbarBrand href="/">Catalog Page Generator</NavbarBrand>
+                <NavbarBrand tag={Link} to="/">Catalog Page Generator</NavbarBrand>
                 <NavbarToggler onClick={this.toggle} />
                 <Collapse isOpen={this.state.isOpen} navbar>
                   <Nav className="ml-auto" navbar>
                     <NavItem>
-                      <NavLink href="/components/">Components</NavLink>
+                      <NavLink tag={Link} to="/default/">Default React Page</NavLink>
                     </NavItem>
                     <NavItem>
                       <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
