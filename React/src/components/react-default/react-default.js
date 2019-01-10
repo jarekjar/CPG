@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './react-default.css';
 import Axios from 'axios';
-//test
 class ReactDefault extends Component {
 
   state = {
