@@ -90,13 +90,12 @@
     <Content Include="build\favicon.ico" />
     <Content Include="build\index.html" />
     <Content Include="build\manifest.json" />
-    <Content Include="build\precache-manifest.bd27bb704f28df8a5557036493d18f3d.js" />
+    <Content Include="build\precache-manifest.26f297de5ae641862d0aa5f3d976a367.js" />
     <Content Include="build\service-worker.js" />
-    <Content Include="build\static\css\main.b7ef4d8d.chunk.css" />
-    <Content Include="build\static\css\main.b7ef4d8d.chunk.css.map" />
-    <Content Include="build\static\js\1.ac30f516.chunk.js" />
-    <Content Include="build\static\js\1.ac30f516.chunk.js.map" />
-    <Content Include="build\static\js\main.728f89ba.chunk.js" />
+    <Content Include="build\static\css\1.4e3fdeb1.chunk.css" />
+    <Content Include="build\static\css\main.7b719a97.chunk.css" />
+    <Content Include="build\static\js\1.294a13bb.chunk.js" />
+    <Content Include="build\static\js\main.455e0af6.chunk.js" />
     <Content Include="build\static\js\runtime~main.c41542e0.js" />
     <Content Include="build\static\js\runtime~main.c41542e0.js.map" />
     <Content Include="build\static\media\logo.5d5d9eef.svg" />
@@ -114,7 +113,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="build\static\js\main.728f89ba.chunk.js.map" />
+    <Content Include="build\static\css\1.4e3fdeb1.chunk.css.map" />
+    <Content Include="build\static\css\main.7b719a97.chunk.css.map" />
+    <Content Include="build\static\js\1.294a13bb.chunk.js.map" />
+    <Content Include="build\static\js\main.455e0af6.chunk.js.map" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.Debug.config">
