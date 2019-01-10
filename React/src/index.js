@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 //import ReactDefault from './components/react-default/react-default';
 import App from './components/app/app'
 require('es6-promise').polyfill();
